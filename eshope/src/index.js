@@ -22,6 +22,8 @@ import Admindb from "./Admin/Admindb";
 import UserOrder from "./userorder";
 import Email from "./email";
 import Changepass from "./changepass";
+import Men from "./men";
+import Woman from "./women";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -45,6 +47,8 @@ root.render(
           <Route exact path="/userorder" element={<UserOrder/>} />
           <Route exact path="/email" element={<Email/>} />
           <Route exact path="/changepass" element={<Changepass/>} />
+          <Route exact path="/men" element={<Men/>} />
+          <Route exact path="/woman" element={<Woman/>} />
         </Routes>
       </BrowserRouter>
     </Provider>

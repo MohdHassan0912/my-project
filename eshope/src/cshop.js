@@ -257,24 +257,32 @@ const Cshope = () => {
           <div className="col-12 col-md-4 dd mt-md-0">
             <ul>
               <li>
+              <Link to="/">
                 <a href="" className="menu">
                   Home
                 </a>
+                </Link>
               </li>
               <li>
+              <Link to="/shop/:cid">
                 <a href="" className="menu">
                   Shop
                 </a>
+                </Link>
               </li>
               <li>
+              <Link to="/Men">
                 <a href="" className="menu">
                   Men
                 </a>
+                </Link>
               </li>
               <li>
+              <Link to="/Woman">
                 <a href="" className="menu">
                   Woman
                 </a>
+                </Link>
               </li>
               <li>
                 <a href="" className="menu">
