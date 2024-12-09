@@ -389,8 +389,8 @@ const Cshope = () => {
           </div>
         </div>
       </div>
-      <div className="container-fluid m-3 ">
-        <div className="row">
+      <div className="container-fluid m-3">
+        <div className="row hero">
           {cdata.map((x) => (
             <div
               className="col-12 col-sm-6 col-md-4 col-lg-2 mb-3 cdata"

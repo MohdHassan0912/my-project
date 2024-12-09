@@ -1,7 +1,21 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.header{
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  /* height: 100%;  */
 
+}
 .header,.footer{
-  /* height: 100px;  */
   background-color: #3664f4;
+}
+.hero{
+  /* background-color: #ff0202; */
+  margin-top: 130px;
 }
 
 .pic1 {
@@ -44,7 +58,7 @@ a::before {
   display: inline;
   place-content: center;
   margin: 0 7px;
-  font-size: 20px;
+  font-size: 15px;
   padding: 0 5px;
   transition: 0.3s;
 }

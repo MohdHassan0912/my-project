@@ -26,7 +26,7 @@ const detailsmodel = require("./models/orderdetailsmodel");
 const emailmodal=require("./models/emailmodel");
 
 
-
+// importing routers 
 const categoryrouter = require("./routers/categoryrouter");
 const subcategoryrouter = require("./routers/subcategoryrouter");
 const productrouter = require("./routers/productrouter");
