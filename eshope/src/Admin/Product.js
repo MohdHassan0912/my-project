@@ -170,7 +170,7 @@ const Product = () => {
           <div className="row ">
             <div className="col-9 ">
               <div class="container-fluid row d-flex justify-content-space-between pb-5 text-end">
-                <div className="col-2 text-start ms-5 ps-5 ">
+                <div className="col-3 text-start  ps-4 ">
                   <div class="form-group">
                     <label>Select-Category</label>
                     <select

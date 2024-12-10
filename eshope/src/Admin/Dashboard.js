@@ -24,7 +24,7 @@ const Dashboard = () => {
     <>
       <div className="dashboard-div bg-dark">
         <div className="d-flex">
-          <Link to="/admindb">
+          <Link className="link" to="/admindb">
             <h3 className="p-2">Dashboard</h3>
           </Link>
           <i
@@ -52,6 +52,11 @@ const Dashboard = () => {
           <li>
             <Link className="link" to="/Product">
               product
+            </Link>
+          </li>
+          <li>
+            <Link className="link" to="/">
+              Home
             </Link>
           </li>
         </ul>

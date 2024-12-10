@@ -157,7 +157,7 @@ const Category = () => {
                 </div>
               </div>
 
-              <div className="container ms-5 ps-5 ">
+              <div className="container ms-2  ">
                 <h2>Category</h2>
                 <table className=" table table-bordered">
                   <thead className="table-dark">

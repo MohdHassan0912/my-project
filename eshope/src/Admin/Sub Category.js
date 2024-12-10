@@ -129,7 +129,7 @@ const SubCategory = () => {
             <div className="col-9">
               <div class="container-fluid row d-flex justify-content-space-between pb-5 text-end">
                 <div className="col-3 text-start ps-5">
-                  <div class=" ms-5 form-group ">
+                  <div class=" ms-3 form-group ">
                     <label>Select-Category</label>
                     <select value={b}
                       className="form-control"
